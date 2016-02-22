@@ -20,7 +20,7 @@ paginate:         5
 
 # Custom vars
 icon:             /assets/images/web_hi_res_512.png
-cover:            /assets/images/cover_material.png
+cover:            /assets/images/cover_alt.jpg
 
 social:
   - icon:         twitter
@@ -62,4 +62,4 @@ parallax:         true
 google_analytics:
 
 # Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
-theme_color:       54577C
+theme_color:       04B9D4
