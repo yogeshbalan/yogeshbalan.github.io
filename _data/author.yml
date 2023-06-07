@@ -1,0 +1,21 @@
+name: Sharad Raj
+dp: https://media.licdn.com/dms/image/C4E03AQH4MLaL8AgnnA/profile-displayphoto-shrink_800_800/0/1632150819556?e=1691625600&v=beta&t=0ivISEQTyI14e5PJ_iRgJfUlJ5OFc-9ERVW-kt-c1Fc
+description: "
+  <p>
+    Android App Developer Extraordinaire.
+  </p>
+  <br/>
+  <p>
+    You can connect with me via <a href='mailto:me@yogeshbalan.com' target='_blank'>Email</a>
+  </P>
+"
+email: dev_sharad@outlook.com
+contact:
+  - title: linkedin
+    url: https://www.linkedin.com/in/yogeshbalan
+  - title: github
+    url: https://github.com/yogeshbalan
+  - title: twitter
+    url: https://twitter.com/yogesh_balan
+  - title: email
+    url: mailto:me@yogeshbalan.com
