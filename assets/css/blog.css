@@ -108,6 +108,7 @@ main {
 .articles .article .date {
   display: block;
   font-size: 0.8rem;
+  color: var(--white-2);
 }
 .articles .article .categories {
   display: flex;
