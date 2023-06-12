@@ -1,180 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-07T17:55:53+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yogesh Balan</title><author><name>Yogesh Balan</name><email>me@yogeshbalan.com</email></author><entry><title type="html">Jekyll Markdown</title><link href="http://localhost:4000/posts/jekyll-markdown/" rel="alternate" type="text/html" title="Jekyll Markdown" /><published>2021-11-04T00:00:00+05:30</published><updated>2021-11-04T00:00:00+05:30</updated><id>http://localhost:4000/posts/jekyll-markdown</id><content type="html" xml:base="http://localhost:4000/posts/jekyll-markdown/"><![CDATA[<p>Text can be <strong>bold</strong>, <em>italic</em>, <del>strikethrough</del> or <code class="language-plaintext highlighter-rouge">keyword</code></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/yogeshbalan/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/yogeshbalan/" rel="alternate" type="text/html" /><updated>2023-06-12T17:38:22+05:30</updated><id>http://localhost:4000/yogeshbalan/feed.xml</id><title type="html">Yogesh Balan</title><author><name>Yogesh Balan</name><email>me@yogeshbalan.com</email></author><entry><title type="html">Technical Experience</title><link href="http://localhost:4000/yogeshbalan/2023/06/08/technical-experience.html" rel="alternate" type="text/html" title="Technical Experience" /><published>2023-06-08T00:00:00+05:30</published><updated>2023-06-08T00:00:00+05:30</updated><id>http://localhost:4000/yogeshbalan/2023/06/08/technical-experience</id><content type="html" xml:base="http://localhost:4000/yogeshbalan/2023/06/08/technical-experience.html"><![CDATA[<h2 id="technical-experience">Technical Experience</h2>
 
-<p><a href="./another-page.html">Link to another page</a>.</p>
+<p>With 6 years of dedicated experience in Android app development, I have honed my skills in creating robust and user-friendly applications. Throughout my career, I have worked on a wide range of projects, collaborating with cross-functional teams and delivering successful solutions. Here is an overview of my technical expertise:</p>
 
-<p>There should be whitespace between paragraphs.</p>
+<p><strong>Programming Languages:</strong> I am highly proficient in Java and Kotlin, the primary languages for Android app development. I leverage their power and flexibility to write clean, efficient, and maintainable code.</p>
 
-<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<p><strong>Android Development Tools:</strong> I have extensive experience working with industry-standard tools such as Android Studio, which provides a comprehensive development environment. I utilize the Android SDK (Software Development Kit), including APIs, libraries, and frameworks, to build feature-rich and interactive applications.</p>
 
-<h4 id="image">Image</h4>
+<p><strong>UI/UX Design and Material Design Guidelines:</strong> I have a deep understanding of user interface (UI) and user experience (UX) design principles. I apply Google’s Material Design guidelines to create visually appealing and intuitive interfaces that enhance user engagement and satisfaction.</p>
 
-<p>Images can be clicked to enlarge :)</p>
+<p><strong>Backend Integration and APIs:</strong> I have expertise in integrating Android applications with backend services and APIs. I am well-versed in utilizing technologies like RESTful APIs, JSON, and XML for seamless data exchange between the app and server.</p>
 
-<p><img src="https://picsum.photos/1366/768" alt="Dummy Image 1" />
-<img src="https://picsum.photos/1200/400" alt="Dummy Image 2" /></p>
+<p><strong>Database Management:</strong> I have worked with popular databases like SQLite and Room, implementing efficient data storage and retrieval mechanisms in Android apps. I am skilled in designing and managing database schemas and performing complex queries.</p>
 
-<h1 id="header-1">Header 1</h1>
+<p><strong>Version Control and Collaboration:</strong> I am proficient in using Git, a distributed version control system, to manage source code and collaborate effectively with team members. I have experience with platforms like GitHub and Bitbucket for seamless code sharing and project management.</p>
 
-<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+<p><strong>Testing and Debugging:</strong> I am well-versed in writing unit tests and conducting robust testing processes to ensure the quality and stability of Android applications. I utilize debugging tools and techniques to identify and resolve issues, ensuring optimal app performance.</p>
 
-<h2 id="header-2">Header 2</h2>
+<p><strong>Continuous Integration and Deployment:</strong> I have experience setting up and managing CI/CD (Continuous Integration/Continuous Deployment) pipelines using tools like Jenkins or GitLab CI. This enables smooth integration, automated testing, and streamlined app deployment processes.</p>
 
-<blockquote>
-  <p>This is a blockquote following a header.</p>
+<p>By leveraging my technical expertise, I strive to deliver high-quality Android applications that meet clients’ requirements, exceed user expectations, and provide a seamless experience across devices.</p>]]></content><author><name>Yogesh Balan</name><email>me@yogeshbalan.com</email></author><summary type="html"><![CDATA[Technical Experience]]></summary></entry><entry><title type="html">About me</title><link href="http://localhost:4000/yogeshbalan/2023/06/07/about-me.html" rel="alternate" type="text/html" title="About me" /><published>2023-06-07T00:00:00+05:30</published><updated>2023-06-07T00:00:00+05:30</updated><id>http://localhost:4000/yogeshbalan/2023/06/07/about-me</id><content type="html" xml:base="http://localhost:4000/yogeshbalan/2023/06/07/about-me.html"><![CDATA[<h2 id="about-me">About Me</h2>
 
-  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
-</blockquote>
+<p>Hello, I’m [Your Name], a passionate and experienced Android app developer with a strong focus on creating innovative and user-friendly mobile applications. With 6 years of industry experience, I have gained a deep understanding of the Android platform and its ecosystem.</p>
 
-<h3 id="header-3">Header 3</h3>
+<p>Throughout my career, I have worked on diverse projects, ranging from small-scale applications to large enterprise-level solutions. I have collaborated with cross-functional teams, including designers, product managers, and fellow developers, to deliver successful mobile applications that meet clients’ requirements and exceed user expectations.</p>
 
-<blockquote>
-  <p>This is another blockquote following header 3</p>
-</blockquote>
+<p>My love for coding and problem-solving drives me to stay updated with the latest trends and technologies in the Android development space. I am constantly exploring new tools, libraries, and frameworks to enhance my skills and improve the quality of my work.</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
-<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">./lang/</span><span class="dl">"</span> <span class="o">+</span> <span class="nx">l</span><span class="p">);</span>
-  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-<span class="p">};</span>
-</code></pre></div></div>
+<p>As an advocate for clean and maintainable code, I follow industry best practices and adhere to coding standards to ensure the scalability and reliability of the applications I develop. I am well-versed in agile methodologies, allowing me to adapt quickly to changing project requirements and deliver results in a timely manner.</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
-<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
-  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="k">end</span>
-</code></pre></div></div>
+<p>Beyond technical expertise, I value effective communication and collaboration. I believe that clear and open communication is key to building strong relationships with clients and team members. I am dedicated to understanding clients’ needs and translating their vision into practical, intuitive, and high-performance mobile applications.</p>
 
-<h4 id="header-4">Header 4</h4>
+<p>When I’m not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and technical communities. I thrive in a dynamic and challenging environment, and I am always eager to take on new opportunities and push the boundaries of what is possible in Android app development.</p>
 
-<ul>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-</ul>
+<p>I am excited to bring my skills and expertise to your projects and help you transform your ideas into reality. Let’s work together to create exceptional Android experiences that make a positive impact in the digital world.</p>
 
-<h5 id="header-5">Header 5</h5>
-
-<ol>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
-
-<h6 id="header-6">Header 6</h6>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">head1</th>
-      <th style="text-align: left">head two</th>
-      <th style="text-align: left">three</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good swedish fish</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">out of stock</td>
-      <td style="text-align: left">good and plenty</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
-      <td style="text-align: left">hmm</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
-      <td style="text-align: left">yumm</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
-
-<hr />
-
-<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
-
-<ul>
-  <li>Item foo</li>
-  <li>Item bar</li>
-  <li>Item baz</li>
-  <li>Item zip</li>
-</ul>
-
-<h3 id="and-an-ordered-list">And an ordered list:</h3>
-
-<ol>
-  <li>Item one
-    <ol>
-      <li>Item one</li>
-      <li>Item two
-        <ol>
-          <li>Item one</li>
-          <li>Item two</li>
-          <li>Item three</li>
-        </ol>
-      </li>
-      <li>Item three</li>
-    </ol>
-  </li>
-  <li>Item four</li>
-  <li>Item two</li>
-  <li>Item three</li>
-  <li>Item four</li>
-</ol>
-
-<h3 id="and-a-nested-list">And a nested list:</h3>
-
-<ul>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item
-        <ul>
-          <li>level 3 item</li>
-          <li>level 3 item</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item</li>
-</ul>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long.
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>Yogesh Balan</name><email>me@yogeshbalan.com</email></author><category term="jekyll" /><category term="Test Post" /><category term="first post" /><summary type="html"><![CDATA[Text can be bold, italic, strikethrough or keyword]]></summary></entry><entry><title type="html">The Purpose of Education</title><link href="http://localhost:4000/posts/the-purpose-of-education/" rel="alternate" type="text/html" title="The Purpose of Education" /><published>1948-12-12T15:48:00+05:30</published><updated>1948-12-12T15:48:00+05:30</updated><id>http://localhost:4000/posts/the-purpose-of-education</id><content type="html" xml:base="http://localhost:4000/posts/the-purpose-of-education/"><![CDATA[<p>As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.</p>
-
-<p><img src="https://picsum.photos/800/300" alt="alt" /></p>
-
-<p>It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.</p>
-
-<p>Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.</p>
-
-<p>The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.</p>
-
-<p>The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?</p>
-
-<p>We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.</p>
-
-<p>If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, “brethren!” Be careful, teachers!</p>]]></content><author><name>Yogesh Balan</name><email>me@yogeshbalan.com</email></author><category term="fiction" /><category term="jekyll" /><summary type="html"><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.]]></summary></entry></feed>
+<p>Feel free to get in touch with me to discuss your next Android app project or any opportunities for collaboration.</p>]]></content><author><name>Yogesh Balan</name><email>me@yogeshbalan.com</email></author><summary type="html"><![CDATA[About Me]]></summary></entry></feed>

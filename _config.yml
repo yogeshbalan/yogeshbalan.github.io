@@ -1,6 +1,9 @@
 title: Yogesh Balan
 markdown: kramdown
 
+url: ""
+baseurl: "/yogeshbalan"
+
 # for atom feed
 author:
   name: Yogesh Balan
@@ -15,12 +18,12 @@ plugins:
 collections_dir: all_collections
 collections:
   posts:
-    output: true
+    output: false
 
 defaults:
   - scope:
       path: "_posts"
     values:
       layout: "post"
-      permalink: /posts/:title/
+      #permalink: /posts/:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
