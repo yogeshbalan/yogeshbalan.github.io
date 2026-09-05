@@ -1,0 +1,618 @@
+/* Active theme: change only this import to one of the four files in themes/. */
+@import url("themes/obsidian.css");
+
+:root {
+  --display: Iowan Old Style, Palatino Linotype, Book Antiqua, Palatino, Georgia, serif;
+  --body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 20rem;
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 1rem;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.site-shell {
+  display: grid;
+  grid-template-columns: minmax(15rem, 22vw) minmax(0, 1fr);
+  max-width: 100rem;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.profile-rail {
+  position: sticky;
+  top: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2.5rem clamp(1.5rem, 2.8vw, 3.5rem);
+  border-right: 1px solid var(--rule);
+}
+
+.wordmark {
+  width: fit-content;
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 1.55rem;
+  font-weight: 850;
+  letter-spacing: -0.1em;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.wordmark span,
+h1 span,
+.eyebrow {
+  color: var(--accent);
+}
+
+.rail-role,
+.rail-location {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
+
+.rail-role span {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.profile-rail nav {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.profile-rail nav a {
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 650;
+  text-decoration: none;
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.profile-rail nav a::before {
+  width: 0;
+  margin-right: 0;
+  color: var(--accent);
+  content: "—";
+  opacity: 0;
+  transition: width 160ms ease, margin-right 160ms ease, opacity 160ms ease;
+}
+
+.profile-rail nav a:hover {
+  color: var(--accent);
+}
+
+.profile-rail nav a:hover::before {
+  width: 1rem;
+  margin-right: 0.45rem;
+  opacity: 1;
+}
+
+.rail-footer {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: auto;
+}
+
+.rail-footer a {
+  color: var(--ink);
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 0.22em;
+}
+
+main {
+  width: min(100%, 60rem);
+  padding: clamp(3.5rem, 7vw, 7rem) clamp(1.5rem, 6vw, 6rem) 7rem;
+}
+
+section {
+  padding-block: clamp(3.5rem, 7vw, 6.5rem);
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 1rem;
+}
+
+section:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--ink);
+}
+
+h1,
+h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: -0.065em;
+  line-height: 0.94;
+}
+
+h1 {
+  max-width: 11ch;
+  font-size: clamp(4.25rem, 10vw, 8rem);
+}
+
+h2 {
+  max-width: 14ch;
+  font-size: clamp(2.45rem, 5vw, 4.25rem);
+}
+
+h2 span,
+h3 span {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+h3 {
+  margin-bottom: 0.2rem;
+  font-size: 1.08rem;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
+}
+
+.eyebrow {
+  margin-bottom: 0.9rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.hero {
+  position: relative;
+  min-height: 38rem;
+}
+
+.hero-summary {
+  max-width: 33rem;
+  margin: 2rem 0 0;
+  color: var(--muted);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.45;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.button {
+  display: inline-flex;
+  min-height: 2.9rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  font-size: 0.83rem;
+  font-weight: 760;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.button-primary {
+  background: var(--ink);
+  color: var(--surface);
+}
+
+.button-primary:hover {
+  background: var(--accent);
+}
+
+.button-secondary {
+  border-color: var(--rule);
+  color: var(--ink);
+}
+
+.button-secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.decorative-mark {
+  display: block;
+  width: min(100%, 15.5rem);
+  margin: 2.5rem 0 0 auto;
+  opacity: 0.96;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.section-index {
+  flex: 0 0 auto;
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.editable-note {
+  max-width: 42rem;
+  margin: 2rem 0 0;
+  padding: 1.1rem 1.2rem;
+  border-left: 3px solid var(--accent);
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.experience-list,
+.skills-list,
+.contact-list,
+.technology-signals ul {
+  margin: 2.3rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience-list {
+  border-bottom: 1px solid var(--rule);
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 9.5rem) 1fr;
+  gap: 1.5rem;
+  padding: 1.55rem 0 1.8rem;
+  border-top: 1px solid var(--rule);
+}
+
+.experience-date,
+.education-date {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  line-height: 1.55;
+  text-transform: uppercase;
+}
+
+.role-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+}
+
+.role-heading p,
+.institution {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 760;
+}
+
+.experience-item ul {
+  display: grid;
+  gap: 0.4rem;
+  margin: 1rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.experience-item li::marker {
+  color: var(--accent);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(12rem, 0.7fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  margin-top: 2.3rem;
+}
+
+.skills-grid h3,
+.technology-signals h3 {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.77rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.skills-list li {
+  padding: 0.9rem 1rem 0.9rem 0;
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.skills-list li:nth-child(odd) {
+  margin-right: 1.2rem;
+}
+
+.technology-signals ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.technology-signals li {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.83rem;
+  font-weight: 700;
+}
+
+.education-list {
+  display: grid;
+  gap: 0;
+  margin-top: 2.3rem;
+  border-top: 1px solid var(--rule);
+}
+
+.education-list article {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 9.5rem) 1fr;
+  gap: 1.5rem;
+  padding: 1.55rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.education-list article p:not(.education-date, .institution) {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+}
+
+.contact-section h2 {
+  max-width: 10ch;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.contact-list li {
+  border-bottom: 1px solid var(--rule);
+}
+
+.contact-list li:nth-child(odd) {
+  margin-right: 1.2rem;
+}
+
+.contact-list a {
+  display: flex;
+  min-height: 3.6rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--ink);
+  font-weight: 720;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.contact-list a:hover,
+.rail-footer a:hover,
+footer a:hover {
+  color: var(--accent);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.not-found-page main {
+  width: min(100%, 44rem);
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+
+.not-found-page main > p:not(.eyebrow) {
+  max-width: 30rem;
+  margin: 1.5rem 0 2rem;
+  color: var(--muted);
+}
+
+@media (max-width: 760px) {
+  .site-shell {
+    display: block;
+  }
+
+  .profile-rail {
+    position: static;
+    min-height: auto;
+    gap: 1.3rem;
+    padding: 1.5rem 1.25rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .profile-rail nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem 1rem;
+  }
+
+  .profile-rail nav a {
+    min-height: 2.4rem;
+  }
+
+  .profile-rail nav a::before {
+    display: none;
+  }
+
+  .rail-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    margin-top: 0;
+  }
+
+  main {
+    width: 100%;
+    padding: 3.5rem 1.25rem 5rem;
+  }
+
+  .hero {
+    min-height: 0;
+  }
+
+  .decorative-mark {
+    width: min(100%, 12rem);
+  }
+
+  .experience-item,
+  .education-list article {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .skills-grid,
+  .contact-list {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-list li:nth-child(odd),
+  .contact-list li:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0.55in;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 10pt;
+  }
+
+  .profile-rail,
+  .decorative-mark,
+  .hero-actions,
+  .section-index {
+    display: none;
+  }
+
+  .site-shell {
+    display: block;
+  }
+
+  main {
+    width: auto;
+    padding: 0;
+  }
+
+  section {
+    break-inside: avoid;
+    padding-block: 1.15rem;
+  }
+
+  h1 {
+    font-size: 42pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
