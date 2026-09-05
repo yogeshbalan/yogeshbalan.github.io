@@ -1,1 +1,6 @@
 .jekyll-cache/
+README.md
+all_collection/
+docs/
+tests/
+Gemfile.lock
